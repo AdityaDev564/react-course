@@ -1,0 +1,36 @@
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+button {
+  background-color: #3498db; /* Blue color for buttons */
+  border: none;
+  color: #ffffff; /* White text color */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+h1 {
+  text-align: center;
+  color: #3498db; /* Blue color for heading */
+}
+
+h2 {
+  text-align: center;
+  color: #3498db; /* Blue color for subheading */
+}
